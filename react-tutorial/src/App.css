@@ -1,0 +1,61 @@
+.container {
+  text-align: center;
+}
+.ContainerII{
+  background-color: whitesmoke;
+}
+.Tilt{
+  position: relative;
+  left: 400px;
+}
+.Tilt2{
+  position: relative;
+  left: 500px;
+}
+
+.btn1{
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+  margin: 10px;
+  outline: none;
+  font-size:45px;
+  right: 20px;
+  border: none;
+  border-radius:50%;
+  background-color:rgba(180, 149, 148, 0.726);
+  box-shadow: 0 9px rgb(12, 12, 12);
+}
+.btn1:hover{
+  background:rgba(197, 175, 51, 0.705);
+ 
+}
+.btn1:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(12, 11, 11);
+  transform: translateY(10px);
+}
+
+.btn2{
+  position: relative;
+  padding: 22px;
+  cursor: pointer;
+  margin: 10px;
+  outline: none;
+  font-size:43px;
+  right: 20px;
+  bottom: 26px;
+  border: none;
+  border-radius:50%;
+  background-color:rgba(180, 149, 148, 0.726);
+  box-shadow: 0 9px rgb(22, 22, 22);
+}
+.btn2:hover{
+  background:rgba(197, 175, 51, 0.705);
+ 
+}
+.btn2:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(22, 21, 21);
+  transform: translateY(10px);
+}
