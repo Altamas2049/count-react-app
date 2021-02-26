@@ -4,23 +4,24 @@
 .ContainerII{
   background-color: whitesmoke;
 }
-.Tilt{
-  position: relative;
-  left: 400px;
+.Tilt {
+  display:inline-block ;
+  justify-content: center;
+  padding: 1px 30px;
 }
 .Tilt2{
-  position: relative;
-  left: 500px;
+  display:inline-block;
+  justify-content: center;
+  padding: 2px 30px;
 }
 
 .btn1{
-  position: relative;
+  bottom: 26px;
   padding: 20px;
   cursor: pointer;
   margin: 10px;
   outline: none;
   font-size:45px;
-  right: 20px;
   border: none;
   border-radius:50%;
   background-color:rgba(180, 149, 148, 0.726);
@@ -37,13 +38,11 @@
 }
 
 .btn2{
-  position: relative;
   padding: 22px;
   cursor: pointer;
   margin: 10px;
   outline: none;
   font-size:43px;
-  right: 20px;
   bottom: 26px;
   border: none;
   border-radius:50%;
